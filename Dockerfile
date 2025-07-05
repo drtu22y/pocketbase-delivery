@@ -2,7 +2,7 @@ FROM alpine:3.18
 
 RUN apk add --no-cache curl unzip
 
-ENV PB_VERSION=0.21.4
+ENV PB_VERSION=0.28.4
 
 WORKDIR /app
 
